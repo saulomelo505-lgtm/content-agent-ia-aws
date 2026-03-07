@@ -22,7 +22,7 @@ Fluxo do sistema:
 
 1. O usuário envia uma pergunta no chat
 2. O Chat Trigger inicia o workflow
-3. O sistema consulta o RSS Feed do blog da AWS
+3. O sistema consulta o RSS Feed do blog da AWS                    ![Workflow n8n](images/n8n-workflow.png)
 4. Os artigos são filtrados e organizados
 5. O Agente de IA analisa os conteúdos
 6. Uma resposta é gerada e enviada ao usuário
@@ -74,3 +74,11 @@ Este projeto foi desenvolvido para estudo e portfólio, explorando:
 * integração com inteligência artificial
 * coleta automatizada de conteúdo
 * construção de agentes inteligentes
+
+## Arquitetura
+
+![Arquitetura do Sistema](images/arquitetura-workflow.png)
+
+## Workflow no n8n
+
+![Workflow n8n](images/n8n-workflow.png)
