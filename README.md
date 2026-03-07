@@ -2,7 +2,7 @@
 
 ## Sobre o Projeto
 
-Este projeto implementa um workflow automatizado no **n8n** que utiliza **Inteligência Artificial** para pesquisar e responder perguntas com base em conteúdos publicados no blog oficial de segurança da AWS.
+Este projeto implementa um workflow automatizado no n8n que utiliza Inteligência Artificial para pesquisar e responder perguntas com base em conteúdos publicados no blog oficial de segurança da AWS.
 
 O sistema coleta automaticamente novos artigos através de **RSS feeds**, organiza os dados e utiliza um **agente de IA** para gerar respostas baseadas nas informações encontradas.
 
@@ -11,10 +11,8 @@ O sistema coleta automaticamente novos artigos através de **RSS feeds**, organi
 ## Problema
 
 Acompanhar atualizações e boas práticas da AWS exige consultar frequentemente blogs técnicos e fontes oficiais.
-
 Esse processo pode ser demorado e exigir a leitura manual de diversos artigos.
-
-Este projeto automatiza esse processo, permitindo que o usuário faça perguntas diretamente e receba respostas baseadas nos conteúdos mais recentes.
+Este projeto automatiza esse processo, permitindo que o usuário faça perguntas diretamente e receba respostas baseadas nos conteúdos mais recentes e de fontes oficias AWS.
 
 ---
 
@@ -23,10 +21,10 @@ Este projeto automatiza esse processo, permitindo que o usuário faça perguntas
 Fluxo do sistema:
 
 1. O usuário envia uma pergunta no chat
-2. O **Chat Trigger** inicia o workflow
-3. O sistema consulta o **RSS Feed do blog da AWS**
+2. O Chat Trigger inicia o workflow
+3. O sistema consulta o RSS Feed do blog da AWS
 4. Os artigos são filtrados e organizados
-5. O **Agente de IA** analisa os conteúdos
+5. O Agente de IA analisa os conteúdos
 6. Uma resposta é gerada e enviada ao usuário
 
 ---
@@ -62,7 +60,6 @@ Fluxo do sistema:
 ## Exemplo de Pergunta
 
 Pergunta do usuário:
-
 "Quais são as últimas boas práticas de segurança na AWS?"
 
 O sistema consulta os artigos recentes no feed RSS da AWS e gera uma resposta baseada nesses conteúdos.
